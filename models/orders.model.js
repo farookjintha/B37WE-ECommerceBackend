@@ -23,7 +23,7 @@ const orderSchema = new mongoose.Schema({
             required: true
         }
     }],
-    bill: {
+    billAmount: {
         type: Number,
         required: true
     }
